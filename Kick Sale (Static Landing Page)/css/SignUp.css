@@ -1,0 +1,158 @@
+/*Document styling*/
+body{
+    background-color: white;
+    color: black; 
+
+    text-transform: uppercase;
+    font-family: Montserrat;
+
+    margin: 0;
+    height: 100;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+}
+
+
+/*Top of the page - Header & Navigation Bar*/
+#top-header{
+    padding: 20px;
+    background-color: white;
+}   
+
+#header-text h1{
+    font-size: 30px;
+}
+
+#header-text h2{
+    font-size: 24px;
+    float: right;
+    text-decoration: none;
+    color: black;
+
+}
+
+#header-text h1, h2{
+    display: inline;
+    padding: 0px 20px 0px;
+    margin-top: 0px;
+    
+}
+
+#header-text a{
+    color: black;
+    text-decoration: none;
+}
+
+#header-text a:hover{
+    text-decoration: underline;
+}
+
+.navigation-bar-wrapper{
+    background-color: black;
+    text-align: center;
+}
+
+#navbar{
+    margin-bottom: -20px;
+}
+
+.nav-link{
+    padding: 20px;
+    color: white;
+    display: inline-block; 
+}
+
+.nav-link a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    background-color:rgb(143, 143, 143);
+}
+
+/*Registration Box*/
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+  
+.form-container h1 {
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+  
+.registartion-form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, 0.445);
+}
+  
+.registartion-form input,
+.registartion-form select,
+.registartion-form textarea {
+    border: none;
+    padding: 20px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+  
+.registartion-form input:focus,
+.registartion-form textarea:focus {
+    box-shadow: 3px 3px 10px rgb(228, 228, 228), -3px -3px 10px rgb(224, 224, 224);
+    
+}
+  
+.registartion-form .submit {
+    display: block;
+    margin-left: auto;
+    border: none;
+    cursor: pointer;
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 30px; 
+    padding: 15px 30px;
+    border-radius: 6px;
+}
+  
+.registartion-form .submit:hover {
+    box-shadow: 3px 3px 6px rgb(139, 139, 139);
+}
+
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: #DADCE0;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+
+/*Footer*/
+.footer-container{
+  background-color: rgb(27, 27, 27);
+  color: white;
+  padding: 25px 0px 25px 0px;
+}
+
+.footer-heading{
+  text-align: center;
+
+}
+  
