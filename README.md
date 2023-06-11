@@ -20,7 +20,7 @@ The goal of Kick Sale is to provide a seamless and captivating user experience t
 
 ## Preview
 
-![Kick Sale Preview](/path/to/preview-image.png)
+![Kick Sale Preview](/Assets/img/2022-07-16.png)
 
 ## Live Demo
 
