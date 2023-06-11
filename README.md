@@ -20,7 +20,7 @@ The goal of Kick Sale is to provide a seamless and captivating user experience t
 
 ## Preview
 
-![Kick Sale Preview](/img/2022-07-16.png)
+![Kick Sale Preview] (https://github.com/TakundaMuzunze/EcommerceLandingPage/blob/main/Kick%20Sale%20(Static%20Landing%20Page)/Assets/img/2022-07-16.png?raw=true)
 
 ## Live Demo
 
